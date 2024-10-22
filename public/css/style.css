@@ -1,0 +1,2592 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Exo+2:ital,wght@0,100..900;1,100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+/* body {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 10px;
+} */
+
+/* .container-fluid{
+    display: flex;
+    height: 160px;
+    padding: 20px;
+    align-items: center;
+    gap: 10px;
+    flex-shrink: 0;
+    align-self: stretch;
+} */
+
+.line-1::after {
+    content: '';
+    position: absolute;
+    left: 0;
+    width: 100dvw;
+    /* height: 100dvh; */
+    transform: rotate(150deg);
+    border-bottom: 1px white dotted;
+}
+#icon{
+    width: 24px;
+height: 100px;
+}
+
+.line-1::before {
+    content: '';
+    transform-origin: 0 0;
+    width: 100dvw;
+    /* height: 100dvh; */
+    transform: rotate(-150deg);
+    border-bottom: 1px white dotted;
+}
+
+.line-2 {
+    width: 1966px;
+    transform: rotate(14.30deg);
+    transform-origin: 0 0;
+}
+
+.display-4{
+    font-size: 50px;
+    font-family: 'Exo 2';
+    font-weight: 500px;
+}
+.swiper-container {
+            width: 100%;
+            overflow: hidden;
+            padding-bottom: 50px;
+        }
+        .swiper-wrapper {
+            display: flex;
+            flex-wrap: nowrap;
+        }
+        .swiper-slide {
+            width: 427px;
+            flex-shrink: 0;
+            margin-right: 20px;
+        }
+        .image-placeholder {
+            background-color: #20262C;
+            height: 287px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+        .image-placeholder::before {
+            content: '\1F4F7';
+            font-size: 24px;
+            color: #808080;
+        }
+        .custom-font {
+            font-family: 'Exo 2';
+            font-size: 24px;
+            font-weight: 500;
+            color: #20262C;
+            margin-top: 18px;
+        }
+        .swiper-pagination {
+            position: static;
+            margin-top: 20px;
+        }
+        .swiper-pagination-bullet {
+            width: 10px;
+            height: 10px;
+            background-color: #BDBDBD;
+            opacity: 1;
+        }
+        .swiper-pagination-bullet-active {
+            background-color: #2C50CB;
+        }
+        .custom-content {
+
+    padding: 50px 20px;
+    border-bottom: 1px solid #BDBDBD;
+    border-top: 1px solid #BDBDBD;
+}
+#fontnya{
+    color: var(--White, #FFF);
+font-family: "Open Sans";
+font-size: 24px;
+font-style: normal;
+font-weight: 200;
+line-height: normal;
+}
+#fontlol{
+    color: var(--White, #FFF);
+
+/* Body Text Paharagraph */
+font-family: "Open Sans";
+font-size: 18px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
+
+.custom-text {
+    color: #808080;
+    font-size: 18px;
+    font-family: 'Open Sans', Open Sans;
+    font-weight: 400;
+    word-wrap: break-word;
+}
+
+.slider-container {
+    overflow: hidden;
+    position: relative;
+     padding-left: 200px;
+}
+
+#kolomkiri{
+    background: #808080;
+}
+
+.slider-content {
+    display: flex;
+    gap: 1px;
+    transition: transform 1s ease-in-out;
+    transform: translateX(-102px); /* This controls the slide position */
+}
+
+.slide-item {
+    /* width: 20px; */
+    height: auto;
+    /* margin-right: 50px; Atur jarak antar slide sesuai kebutuhan */
+}
+
+/* mengubah ukuran gambar splider */
+.slide-item img {
+    width: 120px;
+    height: 100px;
+}
+
+.sticky-slider {
+    position: sticky; /* Membuat slider sticky */
+    top: 0; /* Slider akan tetap berada di bagian atas layar saat scroll */
+    z-index: 1000; /* Memastikan slider tetap di atas elemen lain saat sticky */
+    background-color: white; /* Tambahkan background color jika perlu */
+    padding: 10px;
+}
+
+.slide-item img {
+    /* width: 100%; */
+    /* height: auto; */
+}
+.w-10 {
+    width: 10% !important;
+}
+ .bg-light {
+    background-color: #EBEBEB;
+}
+
+.image-container {
+    width: 100%;
+    height: 318.51px;
+    position: relative;
+    /* padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 30px;
+    padding-bottom: 30px; */
+}
+
+.text-muted {
+    color: #EBEBEB;
+    font-size: 18px;
+
+}
+
+.text-dark {
+    color: black;
+    font-size: 40px;
+}
+
+.fs-5 {
+    font-size: 16px;
+}
+
+.fs-2 {
+    font-size: 40px;
+}
+
+.fw-normal {
+    font-weight: 400;
+}
+
+.fw-semibold {
+    font-weight: 500;
+    font-family: 'Exo 2';
+
+}
+.fs-4 fw-semibold{
+    font-weight: 500px;
+}
+
+.d-flex {
+    display: flex;
+}
+
+.align-items-start {
+    align-items: flex-start;
+}
+
+.justify-content-start {
+    justify-content: flex-start;
+}
+
+.gap-2 {
+    gap: 10px; /* 10px untuk jarak antara elemen */
+}
+
+.mb-3 {
+    margin-bottom: 1rem; /* 16px margin bawah */
+}
+
+.py-4 {
+    padding-top: 1.5rem; /* 24px padding atas */
+    padding-bottom: 1.5rem; /* 24px padding bawah */
+
+}
+
+.px-3 {
+    padding-left: 1rem; /* 16px padding kiri */
+    padding-right: 1rem; /* 16px padding kanan */
+}
+
+.img-fluid {
+    max-width: 100%;
+    height: auto;
+
+}
+
+
+        .left-column {
+            display: flex;
+            flex-direction: column;
+            justify-content: flex-start;
+            padding-right: 2rem;
+        }
+        .right-column {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+        }
+        .stacked-image {
+            width: 100px;
+            margin-top: 2rem;
+        }
+        .step-box {
+            margin-bottom: 1rem;
+            padding-bottom: 1rem;
+            border-bottom: 1px solid #dee2e6;
+        }
+        .step-box:last-child {
+            border-bottom: none;
+        }
+        .step-title {
+            font-weight: bold;
+            margin-bottom: 0.5rem;
+        }
+        .step-description {
+            font-size: 0.9rem;
+        }
+        .description{
+            color: #808080;
+        }
+
+        /* .col-md-6 {
+            background-color:#EBEBEB;
+        } */
+        .custom-container {
+    padding-top: 40px;
+    padding-bottom: 20px;
+    background: #EBEBEB;
+}
+
+.content-box {
+    align-self: stretch;
+}
+
+.text-section {
+    height: 80px;
+    /* display: flex; */
+    /* flex-direction: column; */
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+
+
+
+.main-title {
+    color: black;
+    font-size: 36px;
+    font-family: 'Exo 2';
+    font-weight: 400;
+}
+
+
+.custom-img{
+    margin-top: 3rem;
+}
+.learn-more-btn {
+    background-color: #f8f9fa; /* Background of the learn more button */
+}
+
+.learn-more-btn .btn-icon {
+    width: 24px;
+    height: 24px;
+    position: relative;
+}
+
+.learn-more-btn .btn-icon:before {
+    content: '';
+    width: 15px;
+    height: 19.5px;
+    position: absolute;
+    top: 2.25px;
+    left: 6px;
+    background-color: #2C50CB;
+}
+
+.font-weight-normal {
+    font-weight: 400; /* Adjusted weight to match the custom style */
+}
+
+.fs-5 {
+    font-size: 18px; /* Matching the font-size from inline styles */
+}
+
+.fs-4 {
+    font-size: 24px; /* Matching the font-size from inline styles */
+}
+
+.fw-medium {
+    font-weight: 500; /* Adjusting the weight to match the original */
+}
+
+
+
+h6 {
+    font-size: 24px;
+    font-weight: 500;
+}
+
+.display-3 {
+    font-size: 48px;
+    font-weight: 500;
+}
+
+h5 {
+    font-size: 18px;
+    font-family: 'Open Sans', Open Sans;
+    font-weight: 400;
+}
+
+.bg-dark {
+    background-color: #20262C;
+    height: 403px;
+}
+#custom-bg-dark {
+    background-color: #20262C !important;
+    height: 503px;
+}
+
+body {
+    font-family: 'Exo 2', Open Sans;
+}
+
+h6 {
+    font-size: 18px;
+    font-weight: 400;
+    font-family: 'Open Sans', Open Sans;
+}
+
+h2 {
+    font-size: 36px;
+    font-weight: 500;
+}
+
+.rotate-icon {
+    width: 24px;
+    height: 24px;
+    position: relative;
+    transform: rotate(180deg);
+    transform-origin: 0 0;
+}
+
+.icon-inner {
+    width: 15px;
+    height: 19.5px;
+    position: absolute;
+    top: 2.25px;
+    left: 3.75px;
+    background: white;
+}
+
+.bg-dark {
+    background-color: #20262C !important;
+
+}
+
+
+.font-exo {
+    font-family: 'Exo 2', Open Sans;
+}
+
+.text-secondary {
+    color: #797979 !important;
+}
+
+.text-dark {
+    color: black !important;
+}
+
+.bg-white {
+    background-color: white !important;
+}
+
+
+.h6 {
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.display-4 {
+    font-size: 40px;
+    font-weight: 500;
+}
+
+.h4 {
+    font-size: 28px;
+    font-weight: 400;
+    word-wrap: break-word;
+}
+
+.h5 {
+    font-size: 26px;
+    font-weight: 400;
+}
+
+.text-primary {
+    color: #2C50CB !important;
+}
+
+.gap-2 {
+    gap: 5px !important;
+}
+.font-exo {
+    font-family: 'Exo 2', Open Sans;
+}
+
+.text-secondary {
+    color: #808080 !important;
+}
+
+.text-dark {
+    color: #20262C !important;
+}
+
+#content-update {
+    background-color: #20262C !important;
+}
+
+.bg-secondary {
+    background-color: #808080 !important;
+}
+
+.bg-primary {
+    background-color: #2C50CB !important;
+}
+
+.badge-outline-dark {
+    border: 1px solid #20262C;
+    border-radius: 90px;
+    color: #20262C;
+}
+
+.btn-outline-primary {
+    border-radius: 5px;
+    color: #2C50CB;
+    background-color: transparent;
+    border: none;
+}
+
+
+
+.display-4 {
+    font-size: 36px;
+    font-weight: 500;
+}
+
+.h6 {
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.h4 {
+    font-size: 24px;
+    font-weight: 500;
+}
+
+.px-3 {
+    padding-left: 20px !important;
+    padding-right: 20px !important;
+}
+
+.py-2 {
+    padding-top: 10px !important;
+    padding-bottom: 10px !important;
+}
+
+.ml-2 {
+    margin-left: 10px !important;
+}
+
+.mt-3 {
+    margin-top: 20px !important;
+}
+
+.mb-4 {
+    margin-bottom: 20px !important;
+}
+
+#memilih {
+    padding-bottom: 50px;
+}
+#content-update {
+    background-color: #20262C; /* bg-dark */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 380px;
+}
+
+#content-update img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.image-placeholder {
+    width: 100%;
+    height: 300px;
+    overflow: hidden;
+    position: relative;
+}
+
+.image-placeholder img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+#custom-section {
+    background-color: #20262C;
+}
+#dflex{
+    height: 500px;
+}
+.font-weight-bold {
+    font-weight: 600 !important;
+    font-family: 'Exo 2', Open Sans;
+}
+
+.h2 {
+    font-size: 40px;
+    font-weight: 400;
+    font-family: 'Exo 2', Open Sans;
+}
+
+.h6 {
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 1.5;
+    font-family: 'Exo 2', Open Sans;
+    word-wrap: break-word;
+}
+
+.bg-light {
+    background-color: #EBEBEB !important;
+    min-height: 250px;
+    width: 700px;
+    padding-left: 50px;
+}
+
+.btn-outline-light {
+    background-color: #1B2128;
+    border: 1px solid white;
+    border-radius: 5px;
+}
+
+#dflex{
+    padding-right: 200px;
+
+}
+.newsletter-section {
+    height: 400px;
+    padding-left: 163px;
+    padding-right: 163px;
+    background-color: #2C50CB;
+}
+
+.newsletter-content {
+    flex: 1 1 0;
+    background: #001E50;
+    gap: 30px;
+    width: '200px';
+}
+
+.teks-kanan{
+    padding-left: 150px;
+    padding-right: 100px;
+}
+.teks-kanan h5 {
+    padding-bottom: 10px;
+}
+.teks-kanan h2 {
+    font-size: 30px;
+    color: #FFF;
+}
+
+.teks-kiri .email-form{
+          color: #000; /* Warna teks hitam default */
+    border: #FFF;
+box-shadow: none;
+background-color: #001E50;
+width: 80%;
+max-width: 400px;
+height: 50px;
+
+}
+.teks-kiri    .email-form:focus {
+        color: #fff; /* Ubah teks menjadi putih */
+        background-color: #001E50; /* Ubah background agar kontras */
+    }
+
+    /* Jika Anda ingin menjaga teks tetap putih selama input valid */
+.teks-kiri    .email-form:valid {
+        color: #fff; /* Teks tetap putih saat input valid */
+    }
+
+    /* Menambah sedikit padding untuk kenyamanan */
+.teks-kiri    .email-form {
+        padding: 10px;
+        border-radius: 5px;
+        border: 1px solid #ced4da;
+    }
+
+    /* Gaya tombol untuk konsistensi */
+
+
+.teks-kiri   .btn-light:hover {
+        background-color: gray; /* Warna hover untuk tombol */
+    }
+.teks-kiri p{
+    font-size: 18px;
+    padding-bottom: 10px ;
+}
+.teks-kiri{
+    padding-left: 125px;
+    padding-right: 125px;
+}
+.teks-kiri input {
+    border: 2px solid #fff;
+    background-color: #001E50;
+    color: #fff; /* Agar teks tetap terlihat dengan jelas */
+}
+
+.teks-kiri input:focus {
+    color: #fff;
+    background-color: #001E50; /* Tetap warna yang sama saat difokuskan */
+    border-color: #fff; /* Bisa juga mengatur border saat difokuskan */
+        outline: none; /* Menghilangkan outline bawaan */
+    box-shadow: none; /* Menghilangkan bayangan biru */
+}
+
+.newsletter-text h5,
+.newsletter-text h2 {
+    text-decoration: #FFF;
+    font-family: 'Exo 2';
+    word-wrap: break-word;
+}
+
+.newsletter-description p {
+    font-size: 18px;
+    font-family: 'Exo 2';
+    word-wrap: break-word;
+}
+/*
+.input-group{
+    padding-left: 250px;
+}
+.input-group-text {
+    padding: 10px 20px;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    border: 1px solid white;
+} */
+
+.form-control {
+    padding: 10px 20px;
+    border: none;
+    border-right: 0;
+}
+.line-image {
+    position: relative; /* Atau absolute, tergantung konteks tata letak */
+    z-index: 10; /* Tentukan nilai z-index sesuai kebutuhan */
+}
+
+
+.btn-light {
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    border: 1px solid white;
+}
+
+
+#fontnav .nav-item {
+    margin-right: 20px; /* Memberikan jarak antar elemen */
+    position: relative;
+    display: inline-block;
+}
+
+#fontnav .nav-link {
+    position: relative;
+    font-size: 22px;
+    font-family: "Open Sans";
+    color: white;
+    transition: all 0.3s ease;
+}
+
+#fontnav .nav-link:hover {
+    color: #ffffff; /* Ganti warna teks saat hover */
+    transform: translateY(-5px); /* Efek naik saat hover */
+}
+
+#fontnav .nav-link::before {
+    content: "";
+    position: absolute;
+    width: 0;
+    height: 2px;
+    bottom: -5px;
+    left: 0;
+    background-color: #fffdf6; /* Warna underline saat hover */
+    visibility: hidden;
+    transition: all 0.3s ease-in-out;
+}
+
+#fontnav .nav-link:hover::before {
+    visibility: visible;
+    width: 100%; /* Memperluas underline */
+}
+
+#fontnav img {
+    margin-left: 5px; /* Menambah jarak antara teks dan gambar */
+}
+
+#fontnav .nav-link img:hover {
+    transform: rotate(360deg);
+    transition: transform 0.5s ease; /* Efek rotasi pada ikon */
+}
+
+#kontak{
+    font-size: 22px;
+}
+#fontnav{
+    color: #FFF;
+font-family: "Open Sans";
+font-size: 80px;
+font-style: normal;
+font-weight: 350;
+line-height: normal;
+}
+#email{
+    height: 50px;
+padding-right: 200px;
+}
+#email-1{
+    height: 50px;
+    width: 50px;
+
+}
+
+
+footer {
+    position: sticky;
+    background-color: #1d232a; /* Warna latar belakang */
+    padding: 30px 0;
+    color: #ffffff; /* Warna teks */
+}
+
+footer .container {
+    display: flex;
+    justify-content: space-between;
+}
+#gigir{
+    padding: 0% !important;
+}
+#fontdash{
+    font-weight: 500;
+}
+
+footer .row {
+    flex-wrap: nowrap;
+}
+
+footer img {
+    max-width: 120px; /* Sesuaikan ukuran logo */
+    margin-bottom: 20px;
+}
+
+footer .col-md-4 {
+    flex: 1;
+    padding: 0 20px;
+}
+
+footer h5 {
+    font-size: 24px;
+    margin-bottom: 20px;
+    color: #e3e6ea;
+    font-weight: bold;
+}
+
+footer ul {
+    list-style: none;
+    padding: 0;
+
+}
+
+/* Aturan CSS untuk elemen <li> di footer */
+footer .list-unstyled li a {
+    font-size: 18px;
+    font-weight: 400px; /* Sesuaikan dengan kebutuhan */
+}
+
+
+footer ul li a {
+    color: #e3e6ea;
+    text-decoration: none;
+    display: block;
+    margin-bottom: 10px;
+    font-size: 0.95rem;
+}
+
+footer ul li a:hover {
+    color: #7f8c8d; /* Warna ketika di-hover */
+}
+
+footer .d-flex a {
+    font-size: 1.2rem;
+    margin-right: 15px;
+}
+
+footer .d-flex a:hover {
+    color: #7f8c8d; /* Warna ikon ketika di-hover */
+}
+
+html, body {
+    overflow-x: hidden;
+}
+
+/* @media (max-width: 768px) {
+    footer .container {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    footer .col-md-4 {
+        padding: 10px 0;
+    }
+
+    footer img {
+        margin: 0 auto 20px;
+    }
+
+    footer .d-flex {
+        justify-content: center;
+    }
+} */
+
+#puter{
+    height: 309px;
+}
+.menu-item {
+
+    padding-left: 10px;
+    padding-right: 20px;
+    /* transition: background-color 0.3s, border-radius 0.3s; */
+}
+
+/* .menu-item:hover {
+    background-color: rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+} */
+
+.menu-link {
+    color: rgb(0, 0, 0);
+    font-size: 22px;
+    font-family: 'Open Sans';
+    font-weight: 400;
+    text-decoration: none;
+    word-wrap: break-word;
+}
+
+.rotate-icon {
+    width: 18px;
+    height: 17px;
+    transition: transform 0.3s;
+}
+
+.rotate-icon:hover {
+    transform: rotate(180deg);
+}
+
+.contact-button {
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background-color: #1B2128;
+    border-radius: 5px;
+    border: 1px solid white;
+    /* transition: background-color 0.3s, color 0.3s; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    box-sizing: border-box; /* Menyiasati padding tanpa memperpanjang elemen */
+}
+
+
+.contact-button:hover {
+    background-color: white;
+}
+
+.contact-button:hover .contact-link {
+    color: #1B2128;
+}
+
+.contact-link {
+    color: white;
+    font-size: 20px;
+    font-family: 'Open Sans';
+    font-weight: 400;
+    text-decoration: none;
+    word-wrap: break-word;
+}
+        .section-title {
+            color: #808080;
+            font-size: 24px;
+            font-family: 'Exo 2', Open Sans;
+            font-weight: 500;
+        }
+        .service-title, .subscription-title {
+            color: #20262C;
+            font-size: 24px;
+            font-family: 'Exo 2', Open Sans;
+            font-weight: 500;
+        }
+        .service-description, .subscription-description {
+            color: #808080;
+            font-size: 18px;
+        }
+        .learn-more {
+            color: #2C50CB;
+            font-size: 18px;
+        }
+        .col-md-4 {
+            padding: 0 15px;
+        }
+        .blog-item {
+            margin-bottom: 20px;
+        }
+        .blog-image {
+            width: 100%;
+            height: 200px; /* Sesuaikan tinggi sesuai kebutuhan */
+            background-color: #f0f0f0; /* Warna placeholder */
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            overflow: hidden;
+        }
+
+        .blog-image img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+        }
+
+        .blog-title {
+            background: white;
+            color: #20262C;
+            font-size: 18px;
+            padding: 10px 10px 5px;
+            width: 550px;
+            margin-top: 10px;
+            font-weight: bold;
+        }
+        #apa{
+            background: #EBEBEB;
+        }
+        #logot{
+            padding-left: 20px;
+
+        }
+        #Navbar{
+            padding: 20px;
+        }
+        /* #Blog{
+            margin-left: 200px;
+        } */
+        #Team{
+            margin-left: 100px;
+        }
+     #background{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 100px 257px 0px 257px;
+        /* background: #EBEBEB; */
+        height: 400px;
+        gap: 10px;
+        width: 100% ;
+    }
+    #KONTOLAJAIB{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+     }
+
+
+
+     .navbar{
+        font-size: 20px;
+     }
+     /* Styling untuk container gambar */
+.image-container {
+    width: 1453px;
+    height: 304px;
+    background-color: #20262C;
+}
+
+/* Styling untuk ikon */
+.icon-container {
+    width: 24px;
+    height: 24px;
+}
+
+/* Styling untuk project title */
+.project-title {
+    font-size: 24px;
+    font-family: 'Exo 2', Open Sans;
+    font-weight: 400;
+    text-transform: capitalize;
+    word-wrap: break-word;
+}
+
+/* Bordered box styling */
+.bordered-box {
+    padding: 5px;
+    border: 1px solid #2C50CB;
+}
+
+/* Text color */
+.text-primary {
+    color: #2C50CB;
+}
+
+.text-muted {
+    color: #797979;
+}
+
+/* Container for additional information */
+.info-container {
+    height: 63px;
+}
+#flutter{
+    margin-right: 120px;
+}
+
+#top{
+    margin-left: 360px;
+}
+#topweb{
+    margin-right: 400px;
+}
+
+.icon-size {
+    width: 24px;
+    height: 24px;
+}
+
+.text-content {
+    color: #1B2128;
+    font-size: 16px;
+    font-family: 'Exo 2', Open Sans;
+    font-weight: 400;
+    word-wrap: break-word;
+}
+/* CSS untuk font dan style tambahan */
+.font-exo {
+    font-family: 'Exo 2', Open Sans;
+}
+.img {
+    max-width: 100%;
+    height: auto;
+}
+#appimg{
+    display: flex;
+height: 721px;
+justify-content: center;
+align-items: center;
+align-self: center;
+width: 100%;
+}
+#app{
+    display: flex;
+padding: 5px 500px;
+align-items: center;
+gap: 10px;
+align-self: stretch;
+}
+
+#bray{
+    display: flex;
+    padding: 5px 300px;
+    align-items: center;
+    gap: 10px;
+    align-self: stretch;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.image-container {
+    width: 452px;
+    height: 303px;
+    background: #20262C;
+}
+
+.text-muted {
+    line-height: 1.8;
+}
+
+.portfolio-container {
+    padding-top: 100px;
+    padding-bottom: 100px;
+    background: white;
+}
+
+.portfolio-header h1 {
+    color: black;
+    font-size: 32px;
+    font-family: 'Exo 2', Open Sans;
+    font-weight: 400;
+    text-transform: capitalize;
+}
+
+.portfolio-item {
+    width: 453px;
+    height: 304px;
+    background: #20262C;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.portfolio-item img {
+    width: 100%;
+    height: auto;
+}
+
+.portfolio-title {
+    color: black;
+    font-size: 24px;
+    font-family: 'Exo 2', Open Sans;
+    font-weight: 400;
+    text-transform: capitalize;
+    word-wrap: break-word;
+}
+
+.tech-support {
+    width: 162px;
+    text-align: left;
+    padding: 5px;
+    border: 1px #2C50CB solid;
+    color: #2C50CB;
+    font-size: 16px;
+    font-family: 'Exo 2', Open Sans;
+    font-weight: 400;
+}
+.tech-support2 {
+    width: 174px;
+    text-align: left;
+    padding: 5px;
+    border: 1px #2C50CB solid;
+    color: #2C50CB;
+    font-size: 16px;
+    font-family: 'Exo 2', Open Sans;
+    font-weight: 400;
+}
+
+.tech-details {
+    color: #797979;
+    font-size: 16px;
+    font-family: 'Exo 2', Open Sans;
+    font-weight: 400;
+}
+
+.tech-details img {
+    width: 24px;
+    height: 24px;
+    margin-right: 10px;
+}
+
+
+
+
+#dashboard, #separator {
+    color: #808080;
+}
+
+
+
+.small-text {
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.display-4 {
+    font-size: 40px;
+    font-weight: 500;
+}
+
+.date-badge {
+    padding: 5px 15px; /* Ruang di dalam badge */
+    border-radius: 50px; /* Membuat bentuk oval */
+    border: 1px solid #555; /* Warna garis tepi */
+    color: #555; /* Warna teks */
+    font-family: 'Open Sans', sans-serif; /* Font yang sederhana dan bersih */
+    font-size: 16px; /* Ukuran teks */
+    font-weight: 400; /* Berat teks */
+    display: inline-block; /* Membuat elemen hanya selebar kontennya */
+}
+
+#blok{
+    color: #2C50CB;
+    font-size: 18px;
+}
+
+.pagination-container {
+    width: 100%;
+    height: 100%;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    background: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.arrow-container {
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.arrow {
+    width: 24px;
+    height: 24px;
+    position: relative;
+}
+
+.arrow.gray::before {
+    content: '';
+    width: 9px;
+    height: 16.5px;
+    position: absolute;
+    top: 3.75px;
+    left: 6.75px;
+    background: #BDBDBD;
+}
+
+.arrow.black::before {
+    content: '';
+    width: 9px;
+    height: 16.5px;
+    position: absolute;
+    top: 3.75px;
+    left: 8.25px;
+    background: #20262C;
+}
+
+.page-number {
+    padding: 10px;
+    font-size: 16px;
+    font-family: 'Exo 2', sans-serif;
+    font-weight: 400;
+    color: #20262C;
+    word-wrap: break-word;
+}
+
+.border-box {
+    border: 1px solid #20262C;
+}
+
+
+#about{
+    font-size: 24px;
+}
+
+    /* #img-fluid-custom{
+        margin-right: 100px;
+        padding-top: 100px;
+    } */
+    #breadcrumb{
+        padding: 0%;
+        padding-left: 20px!important;
+    }
+
+#visimisi{
+    padding: 40px 0px;
+}
+#bg{
+    background: #ffffff !important;
+    padding: 100px 0px;
+}
+#company-values {
+    background-color: #20262C;
+    padding: 100px 20px;
+    width: 100%;
+    margin-left: 10px;
+}
+
+#company-description h1 {
+    font-size: 36px;
+    font-family: 'Exo 2', sans-serif;
+    font-weight: 500;
+    word-wrap: break-word;
+    padding: 0% !important;
+}
+#company-description{
+   padding: 0px 30px !important;
+}
+#values-title {
+    font-size: 18px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    word-wrap: break-word;
+}
+
+#company-items h3 {
+    font-size: 24px;
+    font-family: 'Exo 2', sans-serif;
+    font-weight: 500;
+    color: white;
+}
+
+#company-items p {
+    font-size: 20px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    color: white;
+    word-wrap: break-word;
+}
+
+
+#company-items h3{
+    font-size: 30px;
+}
+#company-items{
+   padding-left: 40px;
+}
+#team-section {
+  background-color: #EBEBEB;
+}
+
+#team-section .section-title {
+  font-size: 40px;
+  font-family: 'Exo 2', sans-serif;
+  font-weight: 500;
+  color: black;
+}
+
+#team-section .text-muted {
+  font-size: 20px;
+  font-family: 'Exo 2', sans-serif;
+  font-weight: 400;
+}
+
+#team-section .team-member {
+  text-align: left;
+}
+
+
+#team-section .member-image {
+  background-color: #20262C;
+  height: 304px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+#team-section .member-name {
+  font-size: 24px;
+  font-family: 'Exo 2', sans-serif;
+  font-weight: 400;
+  text-transform: capitalize;
+  color: black;
+}
+
+#team-section .member-role {
+  font-size: 16px;
+  font-family: 'Exo 2', sans-serif;
+  font-weight: 400;
+  color: #2C50CB;
+  border: 1px solid #2C50CB;
+  padding: 5px;
+  display: inline-block;
+  margin-bottom: 10px;
+}
+
+#team-section .member-description {
+  font-size: 16px;
+  font-family: 'Exo 2', sans-serif;
+  font-weight: 400;
+  color: #797979;
+  line-height: 24px;
+}
+#slider{
+    padding: 65px 20px;
+}
+#imgsplider{
+    width: 30px;
+}
+#prime-section {
+    padding: 20px 20px;
+    background-color: #20262C;
+    border-top: 1px solid #BDBDBD;
+    height: 500px;
+}
+
+#prime-content h1 {
+    font-family: 'Exo 2', sans-serif;
+    font-size: 43px;
+    font-weight: 400;
+}
+
+#prime-content p {
+    font-family: 'Exo 2', sans-serif;
+    font-size: 17px;
+    line-height: 20px;
+    word-wrap: break-word;
+}
+#theprime{
+    font-family: 'Open Sans';
+    font-weight: 400;
+}
+#meeting-button .btn {
+    padding: 10px 20px;
+    border-radius: 5px;
+}
+
+#prime-image .bg-light {
+    background-color: #EBEBEB;
+    height: 100%;
+}
+#testimonial-section {
+    padding: 50px 20px;
+}
+
+#testimonial-title {
+    padding: 30px;
+    background-color: white;
+}
+
+#testimonial-title h2 {
+    font-family: 'Exo 2', sans-serif;
+    font-weight: 500;
+    color: black;
+}
+
+#testimonial-content {
+    padding: 30px;
+    background-color: white;
+    margin-left: 200px;
+}
+
+#testimonial-content p {
+    font-family: 'Exo 2', sans-serif;
+    word-wrap: break-word;
+}
+
+#testimonial-content .text-primary {
+    color: #2C50CB;
+}
+
+#testimonial-content .text-muted {
+    color: #797979;
+}
+
+#testimonial-content .img-fluid {
+    transform: rotate(180deg);
+    transform-origin: 0 0;
+}
+#memerlukan{
+    margin-left: 100px;
+}
+
+#bgg{
+    width: 700px;
+    height: 350px;
+    background: #BDBDBD;
+}
+
+#member-2{
+    margin-bottom: 44px;
+}
+
+#member-4{
+    margin-bottom: 44px;
+}
+
+#member-5{
+    margin-bottom: 44px;
+}
+
+#contact-container {
+    width: 100%;
+    /* height: 100%; */
+    padding: 90px 140px;
+    background: #EBEBEB;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+#first-dotted-line, #second-dotted-line {
+    border: 1px white dotted;
+    height: 0;
+    transform-origin: 0 0;
+}
+
+#first-dotted-line {
+    width: 4444.89px;
+    transform: rotate(149.54deg);
+}
+
+#second-dotted-line {
+    width: 4685.11px;
+    transform: rotate(14.30deg);
+}
+
+#contact-form {
+    background: white;
+    padding: 30px 50px;
+    align-self: stretch;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    height: 873px;
+}
+
+#contact-header {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+#contact-title {
+    color: #20262C;
+    font-size: 48px;
+    font-family: 'Exo 2', sans-serif;
+    font-weight: 500;
+}
+
+#contact-subtitle {
+    color: #20262C;
+    font-size: 18px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+}
+
+#social-media {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.social-media-option {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.icon {
+    width: 24px;
+    height: 24px;
+    background-color: #2C50CB;
+}
+
+#name-fields {
+    display: flex;
+    gap: 30px;
+}
+
+#first-name, #last-name {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+#first-name-input, #last-name-input {
+    padding: 10px;
+    border: 1px solid #808080;
+    border-radius: 5px;
+    font-size: 18px;
+    color: #808080;
+    font-family: 'Open Sans', sans-serif;
+}
+
+#email-field, #phone-field {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+#email-input, #phone-input {
+    padding: 10px;
+    border: 1px solid #808080;
+    border-radius: 5px;
+    font-size: 18px;
+    color: #808080;
+}
+
+#services {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+#challenges-text{
+    font-family: 'Open Sans';
+}
+#solution-text{
+    font-family: 'Open Sans';
+}
+.service-option {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+.checkbox {
+    width: 24px;
+    height: 24px;
+    background-color: #20262C;
+}
+
+#submit-button {
+    background: #20262C;
+    border-radius: 5px;
+    padding: 10px 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#submit-button button {
+    color: white;
+    font-size: 18px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+}
+
+#address-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 50px;
+    height: 364px;
+}
+
+#address-img {
+    align-self: stretch;
+}
+
+#location-icon {
+    width: 24px;
+    height: 24px;
+    background-color: #D23737;
+}
+
+#address-text {
+    text-align: center;
+    color: white;
+    font-size: 16px;
+    font-family: 'Exo 2', sans-serif;
+    font-weight: 400;
+}
+#column{
+    background: #ffff!important;
+}
+#naon{
+    width: 1642px;
+    margin-right: 323px;
+}
+#Navnih{
+    padding: 20px;
+}
+/* Mengatur jarak antar elemen menu */
+#navbar .menu-item {
+    margin-right: 20px;
+    position: relative;
+    display: inline-block;
+}
+
+/* Efek hover untuk link menu */
+.menu-link {
+    text-decoration: none;
+    color: #333;
+    padding: 10px 15px;
+    transition: all 0.3s ease;
+    position: relative;
+}
+
+.menu-link:hover {
+    color: black; /* Warna teks saat hover */
+    transform: translateY(-5px); /* Efek naik saat hover */
+}
+
+/* Garis bawah animasi saat hover */
+.menu-link::before {
+    content: "";
+    position: absolute;
+    width: 0;
+    height: 2px;
+    bottom: -5px;
+    left: 0;
+    background-color: black; /* Warna garis bawah */
+    visibility: hidden;
+    transition: all 0.3s ease-in-out;
+}
+
+.menu-link:hover::before {
+    visibility: visible;
+    width: 100%;
+}
+
+/* Mengatur ikon dropdown */
+.menu-item img {
+    margin-left: 5px;
+    transition: transform 0.5s ease;
+}
+
+/* Efek rotasi pada ikon saat hover */
+.menu-link:hover img {
+    transform: rotate(360deg);
+}
+
+/* Tombol kontak */
+.contact-button {
+    margin-left: 30px;
+    padding: 10px 20px;
+    background-color: black;
+    border-radius: 5px;
+}
+
+.contact-link {
+    color: white;
+    text-decoration: none;
+    font-weight: 500;
+    transition: color 0.3s ease;
+}
+
+/* Efek hover untuk tombol kontak */
+.contact-link:hover {
+    color: #f1c40f;
+}
+
+#tambahboy{
+    padding-left: 700px;
+}
+#main-title, h2 {
+    font-family: 'Exo 2', sans-serif;
+    font-weight: 500;
+    color: #20262C;
+}
+.bg-dark-custom {
+    background-color: #20262C;
+}
+
+.custom-box {
+    width: 19.5px;
+    height: 16.5px;
+    background-color: #BDBDBD;
+}
+
+#main-title {
+    font-size: 36px;
+    padding-right: 900px;
+}
+
+h2 {
+    font-size: 24px;
+}
+
+#project-badge {
+    font-size: 18px;
+    font-weight: 400;
+    padding: 5px;
+}
+
+#tech-list, #background-text, #challenges-text, #solution-text, #feature-list {
+    color: #808080;
+    font-size: 18px;
+}
+
+.bi-code-slash::before {
+    content: "\f3ee";
+    font-family: "Bootstrap-icons";
+    color: #808080;
+}
+
+#main-container {
+    max-width: 1800px;
+}
+#project-info {
+    margin-bottom: 2rem;
+}
+
+#background, #challenges, #solution {
+    margin-bottom: 2rem;
+}
+
+#feature-list li {
+    margin-bottom: 0.5rem;
+}
+#container {
+    background-color: #20262C;
+}
+
+#inner-box {
+    width: 19.5px;
+    height: 16.5px;
+    background-color: #BDBDBD;
+}
+
+
+
+.custom-bg {
+    justify-content: center;
+    width: 926px;
+    height: 621px;
+    background: #20262C;
+}
+
+.icon-container {
+    width: 24px;
+    height: 24px;
+}
+
+.icon-container-small {
+    width: 24px;
+    height: 24px;
+}
+
+.custom-title {
+    font-size: 32px;
+    font-family: 'Exo 2', sans-serif;
+    font-weight: 400;
+    text-transform: capitalize;
+    word-wrap: break-word;
+}
+
+.custom-button {
+    padding: 2px;
+    border: 1px #2C50CB solid;
+
+}
+
+.custom-button-text {
+    color: #2C50CB;
+    font-size: 18px;
+    font-family: 'Exo 2', sans-serif;
+    font-weight: 400;
+    word-wrap: break-word;
+}
+
+.custom-heading {
+    font-size: 24px;
+    font-family: 'Exo 2', sans-serif;
+    font-weight: 500;
+    word-wrap: break-word;
+}
+
+.custom-paragraph {
+    color: #797979;
+    font-size: 18px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    line-height: normal;
+    word-wrap: break-word;
+}
+
+.text-secondary {
+    color: #797979;
+    font-size: 18px;
+}
+
+.text-primary {
+    color: #2C50CB;
+}
+
+#tai{
+    font-size: 18px;
+}
+
+#ancrit{
+    width: 187px;
+}
+
+    .image-box {
+        width: 100%;
+        height: 200px; /* Adjust height to match your desired box size */
+        background-color: #20262C; /* Dark background */
+        border: 1px solid #2C3E50; /* Optional: A border to match the aesthetic */
+    }
+
+    .image-box img {
+        width: 40px; /* Image size placeholder */
+        height: 40px; /* Keep the image small to match the placeholder in your screenshot */
+        object-fit: contain;
+    }
+
+    #badagboy{
+        justify-content: center;
+        align-items: center;
+    }
+
+    #portfolioedan{
+        padding-left: 306px;
+    }
+
+.wellkan{
+    padding-top: 200px ;
+}
+
+.mantapmen{
+    /* padding-left: 100px; */
+    padding-bottom: 50px;
+}
+
+#hideung{
+    width: 650px;
+    height: 400px;
+}
+#app-development-section {
+    padding-top: 50px;
+    padding-bottom: 50px;
+    /* padding-left: 100px !important; */
+}
+
+#app-description, #app-details {
+    padding-top: 30px;
+    padding-bottom: 30px;
+    padding-left: 100px;
+}
+
+
+#service-details{
+    margin-left: 200px;
+    padding-bottom: 300px;
+}
+#service-description{
+    padding-left: 50px;
+}
+#how-we-work-section {
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 10px;
+}
+
+#work-title {
+    color: #808080;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+}
+
+#work-description {
+    color: #20262C;
+    font-family: 'Exo 2', sans-serif;
+    font-weight: 500;
+}
+#process-section {
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.process-card {
+    flex: 1 1 0;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 20px;
+    margin-right: 10px;
+}
+
+.icon-container {
+    width: 59px;
+    height: 59px;
+    position: relative;
+}
+
+.icon-design {
+    width: 44.25px;
+    height: 36.88px;
+    position: absolute;
+    top: 11.06px;
+    left: 7px;
+    background-color: #EBEBEB;
+    border: 2px solid #BDBDBD;
+}
+
+.text-wrap{
+    font-family: 'Exo 2';
+}
+
+.process-title {
+    color: #20262C;
+    font-size: 28px;
+    font-family: 'Exo 2';
+    font-weight: 600;
+    word-wrap: break-word;
+}
+
+
+
+.process-description {
+    color: #20262C;
+    font-size: 24px;
+    font-family: 'Exo 2';
+    font-weight: 500;
+    word-wrap: break-word;
+}
+#portfolio-section {
+    padding-left: 60px;
+    padding-right: 20px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    background-color: white;
+}
+
+#portfolio-title {
+    color: #808080;
+    font-size: 18px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    word-wrap: break-word;
+}
+
+#portfolio-heading {
+    color: #20262C;
+    font-size: 36px;
+    font-family: 'Exo 2', sans-serif;
+    font-weight: 500;
+    word-wrap: break-word;
+}
+#carousel-section {
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    border-top: 1px solid #BDBDBD;
+    border-bottom: 1px solid #BDBDBD;
+}
+
+.splide__list {
+    display: flex; /* Agar item ditampilkan dalam satu baris */
+    flex-wrap: nowrap; /* Mencegah item wrapping ke baris berikutnya */
+}
+
+.splide__slide {
+    width: calc(100% / 4); /* 4 gambar dalam satu baris */
+    padding: 10px; /* Memberi jarak antar slide */
+}
+
+.slide-item {
+    width: 100%; /* Memastikan slide item mengikuti lebar container */
+}
+
+.slide-image {
+    width: 100%;
+    height: 287px; /* Sesuaikan ukuran sesuai desain Anda */
+    background-color: #20262C;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.slide-title {
+    text-align: center;
+    margin-top: 10px;
+}
+#contact-section {
+    background-color: #20262C;
+    border-color: #EBEBEB;
+    /* padding-right: 200px !important ; */
+}
+
+#atur{
+    padding-right: 200px !important;
+}
+#design-development{
+    font-family: 'Exo 2';
+}
+#service-advantages-section{
+    padding-bottom:700px;
+    padding-top: 50px;
+}
+
+#contact-left h4,
+#contact-left h1 {
+    font-family: 'Exo 2', sans-serif;
+    font-weight: 500;
+}
+
+#contact-left p {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+}
+
+#contact-right {
+    background-color: #EBEBEB;
+    border-radius: 5px;
+    height: 400px;
+    padding-left: 200px;
+}
+
+.btn-outline-light {
+    border-color: white;
+}
+#outer-container {
+    padding-left: 100px;
+    padding-right: 500px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    gap: 20px;
+}
+
+#inner-container {
+    background: #EBEBEB;
+    gap: 10px;
+    height: 400px;
+}
+
+#image-wrapper {
+    width: 24px;
+    height: 24px;
+}
+
+#berad{
+    padding-left: 312px;
+}
+
+#pangbadagna{
+    height: 1900px;
+}
+
+#mengapa{
+    color: var(--Black, #20262C);
+
+/* Heading 3 */
+font-family: "Exo 2";
+font-size: 28px;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+padding-bottom: 30px;
+}
+
+#p1{
+    padding-bottom: 30px;
+}
+
+ol li{
+    color: var(--Text, #808080);
+
+/* Body Text Paharagraph */
+font-family: "Open Sans";
+font-size: 18px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
+
+
+
+#lainnya{
+    padding-top: 100px;
+    padding-left: 290px;
+    color: var(--Black, #20262C);
+
+/* Heading 2 */
+font-family: "Exo 2";
+font-size: 36px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+}
+
+
+
+.card {
+    /* box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); */
+    margin-bottom: 20px;
+}
+
+
+
+.card-footer {
+    background-color: #f8f9fa;
+    text-align: right;
+}
+
+.btn-primary {
+    color: #007bff;
+    /* text-decoration: none; */
+    font-size: 0.9rem;
+}
+
+#datebayo{
+    padding: 10px;
+}
+
+#why{
+    color: var(--Black, #20262C);
+
+/* Heading 4 */
+font-family: "Exo 2";
+font-size: 24px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+padding-bottom: 10px;
+}
+
+#wow{
+    color: var(--Text, #808080);
+
+/* Body Text Paharagraph */
+font-family: "Open Sans";
+font-size: 18px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
+
+.portfolio-btn {
+    padding: 10px 20px;
+    background-color: #2C50CB;
+    border-radius: 5px;
+}
+
+.portfolio-text {
+    color: white;
+    font-size: 16px;
+    font-family: 'Exo 2', sans-serif;
+    font-weight: 400;
+    word-wrap: break-word;
+}
+
+/* Ensure parent container is positioned */
+.splide {
+    position: relative;
+    overflow: hidden;
+}
+
+
+/* Move pagination to the bottom-right */
+.splide__pagination {
+    position: absolute;
+    bottom: 10px;
+    right: 10px;
+    display: flex;
+    justify-content: flex-end;
+}
+
+/* Style the dots */
+.splide__pagination__page {
+    background-color: #ccc;
+}
+
+.splide__pagination__page.is-active {
+    background-color: #0000ff;
+}
+
+.truncated-text {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 7; /* Batasi hingga 6 baris */
+    -webkit-box-orient: vertical;
+    line-height: 1.5em;
+    max-height: 10.5em;
+    max-width: 100%;
+    word-wrap: break-word;
+    word-break: break-all;
+    white-space: normal;
+}
+
+#poy{
+    padding-top: 24px;
+    padding-bottom: 24px;
+    padding-left: 260px;
+    padding-right: 260px;
+}
+/* .navbar {
+    align-self: stretch;
+    height: 160px;
+    padding: 20px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 10px;
+    background-color: transparent;
+}
+
+.logo-container {
+    flex: 1;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 10px;
+}
+
+
+.menu-container {
+    flex: 1;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+}
+
+.menu {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.menu-item {
+    padding: 0 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+    transition: background-color 0.3s, border-radius 0.3s;
+}
+
+.menu-item:hover {
+    background-color: rgba(255, 255, 255, 0.1);
+    border-radius: 5px;
+}
+
+.menu-link {
+    color: white;
+    font-size: 23px;
+    font-family: 'Exo 2', Open Sans;
+    font-weight: 400;
+    text-decoration: none;
+    word-wrap: break-word;
+}
+
+.dropdown-icon {
+    width: 18px;
+    height: 17px;
+    position: relative;
+    transition: transform 0.3s;
+}
+
+.menu-item:hover .dropdown-icon {
+    transform: rotate(180deg);
+}
+
+.contact-container {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 10px;
+}
+
+.contact-button {
+    padding: 10px 20px;
+    background: #1B2128;
+    border-radius: 5px;
+    border: 1px white solid;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.contact-button:hover {
+    background-color: white;
+}
+
+.contact-link {
+    color: white;
+    font-size: 20px;
+    font-family: 'Exo 2', sans-serif;
+    font-weight: 400;
+    text-decoration: none;
+    word-wrap: break-word;
+}
+
+.contact-button:hover .contact-link {
+    color: #1B2128;
+}
+
+.nav-item{
+    color: #FFF;
+
+font-family: "Open Sans";
+font-size: 23px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+padding: 35px;
+}
+
+.custom-btn:hover {
+    background-color: rgb(0, 0, 0);
+    color: rgb(255, 249, 249);
+    }
+
+.btn-custom {
+    color: rgb(255, 255, 255);
+    border-color: rgb(238, 233, 233);
+    background-color: black;
+    transition: background-color 0.3s, color 0.3s;
+    font-size: 20px;
+}
+
+.logo {
+    width: 10%;
+    width: 220px;
+    max-width: 300px;
+    height: auto;
+}
+.browser-container {
+  background-color: #2C50CB;
+  padding-top: 60px;
+}
+
+.browser-window {
+  max-width: 1126px;
+  margin: 0 auto;
+}
+
+.browser-main, .browser-sidebar {
+  background-color: #355EE8;
+  border: 1px solid #7795FF;
+  border-radius: 10px 10px 0 0;
+  box-shadow: 0px -8px 18px rgba(0, 0, 0, 0.10);
+}
+
+.browser-toolbar, .browser-sidebar-toolbar {
+  background-color: #1F3890;
+  border-radius: 10px 10px 0 0;
+  padding: 10px;
+  display: flex;
+  align-items: center;
+}
+
+.browser-controls {
+  display: flex;
+  gap: 10px;
+}
+
+.browser-address-bar, .browser-sidebar-address-bar {
+  flex-grow: 1;
+  background-color: #1A3080;
+  display: flex;
+  align-items: center;
+  padding: 5px 10px;
+  margin: 0 10px;
+  border-radius: 5px;
+}
+
+.browser-url {
+  color: #2C50CB;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+  flex-grow: 1;
+}
+
+.browser-icon {
+  width: 24px;
+  height: 24px;
+}
+
+.browser-content, .browser-sidebar-content {
+  height: 300px;
+}
+
+.browser-sidebar {
+  margin-top: 85px;
+}
+
+.browser-sidebar-toolbar {
+  padding: 10px;
+}
+
+.browser-sidebar-address-bar {
+  font-size: 14px;
+  font-weight: 300;
+}
+
+.browser-sidebar-tab-count {
+  color: #2C50CB;
+  font-size: 10px;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 400;
+  padding: 3px;
+  border: 1px solid #2C50CB;
+  border-radius: 5px;
+}
+
+@media (max-width: 991px) {
+  .browser-sidebar {
+    margin-top: 20px;
+  }
+}  */
+
+/* FOOTER CSS */
+
+
